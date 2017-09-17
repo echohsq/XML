@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited by EchoHao -->
+<college name="Yangtse University">
+	<![CDATA[
+       "学校名称为长江大学"
+       这个xml描绘了一个班级的学生情况
+       大学>班级>学生>学号>爱好
+	]]>
+	<class number="1502">
+		<student>
+			<name>郝强</name>
+			<number>001</number>
+			<age>20</age>
+			<favorite>编程&gt;篮球&amp;跑步</favorite>
+		</student>
+		<student>
+			<name>雷军</name>
+			<number>002</number>
+			<age>21</age>
+			<favorite>科技&amp;编程</favorite>
+		</student>
+		<student>
+			<name>余承东</name>
+			<number>003</number>
+			<age>20</age>
+			<favorite>吹牛&amp;爱国</favorite>
+		</student>
+		<student>
+			<name>黄章</name>
+			<number>004</number>
+			<age>21</age>
+			<favorite>打磨&amp;木匠</favorite>
+		</student>
+		<student>
+			<name>贾跃亭</name>
+			<number>005</number>
+			<age>22</age>
+			<favorite>爱演讲</favorite>
+		</student>
+		<student>
+			<name>乔布斯</name>
+			<number>006</number>
+			<age>20</age>
+			<favorite>艺术&amp;参禅</favorite>
+		</student>
+		<student>
+			<name>库克</name>
+			<number>007</number>
+			<age>19</age>
+			<favorite>给自己做个小刘海&amp;发型爱好者</favorite>
+		</student>
+		<student>
+			<name>李楠</name>
+			<number>008</number>
+			<age>23</age>
+			<favorite>研究技术</favorite>
+		</student>
+		<student>
+			<name>周锐</name>
+			<number>009</number>
+			<age>20</age>
+			<favorite>篮球</favorite>
+		</student>
+		<student>
+			<name>寇爽</name>
+			<number>010</number>
+			<age>20</age>
+			<favorite>画画</favorite>
+		</student>
+    </class>
+    <script>
+	<![CDATA[
+	function matchwo(a,b)
+	{
+	if (a < b && a < 0) then
+	{
+	return 1;
+	}
+	else
+	{
+	return 0;
+	}
+	}
+	]]>
+	</script>
+</college>
+
